@@ -1,0 +1,27 @@
+.row{
+    border: none;
+}
+.col{
+    /* border:2px black solid; */
+    height:400px;
+    text-align: center;
+    align-content: center;
+    overflow: hidden;
+}
+.col:hover{
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+    transition-duration: 0.9s;
+}
+#boot_layout h1{
+    text-align: center;
+    margin:40px;
+}
+
+@media screen and (max-width:700px){
+    .col{
+        height:300px;
+    }
+    .card img{
+        height:200px;
+    }
+}
