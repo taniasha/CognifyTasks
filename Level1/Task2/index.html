@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level1-task2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="changing_color">
+        <h2>Color Changing button</h2>
+        <button class="color_btn btn">
+            Click me!
+        </button>
+    </section>
+
+    <!-- calculator -->
+    <section id="calculator" >
+        <h2>Calculator</h2>
+        <form action="">
+            <label for="number_one">Enter number one:</label>
+            <input id="number_one" placeholder="Enter number one" type="number"></input>
+            <br>
+            <br>
+            <label for="number_two">Enter number two:</label>
+            <input id="number_two" placeholder="Enter number two" type="number"></input>
+            <br>
+            <br>
+            <label for="operation">Operation:</label> 
+            <select id="operation"> 
+                <option value="add">Add</option> 
+                <option value="subtract">Subtract</option> 
+                <option value="multiply">Multiply</option> 
+                <option value="divide">Divide</option> 
+            </select>
+            <div class="calc_div">
+                 <button class="cal_button btn" type="button" onclick="calculate()">Calculate</button>
+            </div>
+            
+        </form>
+
+    </section>
+    <div class="yeye">
+        <h3 id="result"></h3>
+    </div>
+    
+    <!-- greeting message based on the current time -->
+     <section id="greet">
+    <button class="btn" id="greeting-btn">Get Greeting</button> 
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
